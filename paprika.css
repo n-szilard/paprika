@@ -1,0 +1,100 @@
+html {
+    background-color: #FFEFD5;
+    color: #8B4513;
+}
+
+.szines {
+    width: 100%;
+    height: 120px;
+}
+
+.focim {
+    position: absolute;
+    top: 30px;
+    left: 16px;
+}
+
+.tartalom {
+    display: grid;
+    grid-template-areas: 
+            "a b b"
+            "a c c";
+
+    margin-left: 16px;
+    margin-right: 16px;
+    column-gap: 64px;
+}
+
+aside {
+    grid-area: a;
+}
+
+section {
+    grid-area: b;
+}
+
+article {
+    grid-area: c;
+}
+
+table {
+    width: 300px;
+    text-align: center;
+    border-collapse: collapse;
+    font-weight: bold;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+td {
+    border: 1px solid black;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+.oszlop {
+    width: 120px;
+}
+
+.zold {
+    background-color: #7cfc00
+}
+
+.bezs {
+    background-color: #ffffe0
+}
+
+.piros {
+    background-color: #f08080
+}
+
+.lila {
+    background-color: #cf61fc;
+}
+
+ul {
+    list-style-image: url(./kepek/chili-pepper-icon.gif);
+}
+
+li {
+    border: 1px solid blue;
+    background-color: #f8f8f8;
+    margin: 8px;
+    padding: 8px;
+    color: black;
+    font-weight: bold;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1 {
+    color: black;
+}
+
+/*
+
+https://developer.mozilla.org/en-US/docs/Web/CSS/grid-template-areas
+https://www.w3schools.com/css/css_grid.asp
+*/
